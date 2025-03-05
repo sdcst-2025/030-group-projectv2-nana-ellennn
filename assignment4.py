@@ -1,6 +1,6 @@
 def title():
-    print('Welcome to globular Interest calculator')
-    print('You can calculate Interest volume')
+    print('Welcome to Interest calculator')
+    print('You can calculate Interest')
     print('You can test this program by (p,r,n,t)=(1000,4,4,2)')
 
 def main():
