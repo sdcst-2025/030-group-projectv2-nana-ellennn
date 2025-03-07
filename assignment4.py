@@ -3,10 +3,6 @@ def title():
     print('You can calculate Interest')
     print('You can test this program by (p,r,n,t)=(1000,4,4,2)')
 
-    print('Welcome to globular Interest calculator')
-    print('You can calculate Interest volume')
-    print('You can test this program by (p,r,n,t)=(1000,4,4,2)\nThe answer should be 1082.86')
-
 
 def main():
     title()

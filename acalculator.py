@@ -33,7 +33,8 @@ def runP1():
          except:
             print("Please enter valid values!")
             return True
-    pass
+         break
+    #pass
 def runP2():
     print('Welcome to use Angle Calculater')
     print('You can convert between Radians and degrees')
@@ -64,7 +65,8 @@ def runP2():
       except:
            print('Please only enter number\nTry again')
            return True
-    pass
+      break
+    #pass
 def runP3():
     print('Welcome to globular volume calculator')
     print('You can calculate globular volume')
@@ -78,7 +80,8 @@ def runP3():
         except:
             print('Enter a number please')
             return True
-    pass
+        break
+    #pass
 def runP4():
     print('Welcome to Interest calculator')
     print('You can calculate Interest')
@@ -95,7 +98,8 @@ def runP4():
         except:
             print("Please enter a number")
             return True
-    pass
+        break
+    #pass
 def runP5():
     print("Welcome to cone surface area calculator!")
     print("This calculator is used to find out the surface area of cone.")
@@ -111,7 +115,8 @@ def runP5():
          except:
             print("Please enter valid values!")
             return True
-    pass
+         break
+    #pass
 def runP6():
     print('Welcome to Work calculator')
     print("You can calculate how much work you have done after an action in physics.")
@@ -128,7 +133,8 @@ def runP6():
          except:
             print("Please enter valid values!")
             return True
-    pass
+         break
+    #pass
 def runP7():
     print('Welcome to Geometric sequence calculator')
     print('Here is the Geometric sequence: 2,4,8,16,......')
@@ -144,7 +150,8 @@ def runP7():
          except:
             print("Please enter valid values!")
             return True
-    pass
+         break
+    #pass
 def runP8():
     while True:
        try:
@@ -169,51 +176,55 @@ def runP8():
                 #return True
        except:
             print('Please only enter one number that except 0')
-            return True 
-    pass
+            return True
+       break 
+    #pass
 
 
-while runProgram == True:
-    print("-------------------Welcome to Calculator Programs-----------------------")
-    print("""
-          1.Cone and Cylinder Volume Calculator
-          2.Angle Calculater
-          3.Circle Volume Calculater
-          4.Interest Calculator
-          5.Cone Surface Area Calculator
-          6.Work Calculator
-          7.Geometric Sequence Calculator
-          8.Copper Volume Calculater
-          """)
-    # display menu
-
-    #input statement get choice
-    choice = input("Enter a number from 1 to 8 to run the program: ")
-    if choice ==1:
-        runP1()
-    elif choice==2:
-        runP2()
-    elif choice==3:
-        runP3()
-    elif choice==4:
-        runP4()
-    elif choice==5:
-        runP5()
-    elif choice==6:
-        runP6()
-    elif choice==7:
-        runP7()
-    elif choice==8:
-        runP8()    
-    if choice == "Q":
-        runProgram=False
 
 if __name__ == "__main__":
-    runP1()
-    runP2()
-    runP3()
-    runP4()
-    runP5()
-    runP6()
-    runP7()
-    runP8()
+    while runProgram == True:
+        print("-------------------Welcome to Calculator Programs-----------------------")
+        print("""
+            1.Cone and Cylinder Volume Calculator
+            2.Angle Calculater
+            3.Circle Volume Calculater
+            4.Interest Calculator
+            5.Cone Surface Area Calculator
+            6.Work Calculator
+            7.Geometric Sequence Calculator
+            8.Copper Volume Calculater
+            """)
+        # display menu
+
+        #input statement get choice
+        choice = input("Enter a number from 1 to 8 to run the program: ")
+        "1","2"
+        if choice =="1":
+            runP1()
+        elif choice=="2":
+            runP2()
+        elif choice=="3":
+            runP3()
+        elif choice=="4":
+            runP4()
+        elif choice=="5":
+            runP5()
+        elif choice=="6":
+            runP6()
+        elif choice=="7":
+            runP7()
+        elif choice=="8":
+            runP8()
+        if choice == "Q":
+            runProgram=False
+
+#if __name__ == "__main__" and choice==1:
+    #runP1()
+    #runP2()
+    #runP3()
+    #runP4()
+    #runP5()
+    #runP6()
+    #runP7()
+    #runP8()
